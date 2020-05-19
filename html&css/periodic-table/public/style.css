@@ -1,0 +1,114 @@
+
+body{
+    background-color: rgb(97, 93, 93);
+    margin-top: 15%;
+    font-weight: bolder;
+}
+
+.mh{
+    margin-top: -220px;
+    background-color: rgb(143, 140, 140);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+    height: 50px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #FF0000;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #FF0000;
+}
+.silver{
+    background-color: silver;
+}
+
+
+.blue{
+    background-color:  rgb(89, 163, 197);
+}
+
+
+.yellow{
+    background-color: yellowgreen;
+}
+.green{
+    background-color: rgb(116, 168, 116);
+}
+.red{
+    background-color: rgb(250, 41, 41);
+}
+.golden{
+    background-color: goldenrod;
+}
+.purple{
+    background-color: rgb(163, 36, 163);
+}
+.dyellow{
+    background-color: rgb(226, 226, 12);
+}
+.dgolden{
+    background-color: rgb(245, 175, 13);
+}
+.dsilver{
+    background-color: rgba(82, 78, 78, 0.993);
+}
+
+table{
+    
+    border-width: 3px;
+    border: hidden;
+    
+    
+}
+
+td{
+    border-width: 2px;
+    color: blanchedalmond;
+    border-color: slategrey;
+    color: black;
+    
+}
+
+.P3{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-right: 50px;
+}
+
+
+.name 
+{
+    margin-left: 550px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgb(224, 222, 222) inset;
+    padding-top: 2px;
+    color: black;
+    transition-property: width;
+  transition-duration: 5s;
+  color: rgb(223, 239, 240);
+  }
+
+  .name:hover{
+      width: 300px;
+  }
+ td{
+    width: 60px;
+    box-shadow: 5px 10px 20px silver inset;
+} 
+
+.boxes{
+    border-radius: 10px;
+box-shadow: 5px 10px 20px silver inset;
+}
+
+
+
+
+
+
+
