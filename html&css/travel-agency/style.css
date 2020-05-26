@@ -124,3 +124,44 @@ width: 100%;
      font-weight: 600;
      margin-top: 20px;
  }
+
+ .feature-details .fa{
+     margin-right: 5px;
+ }
+
+ .feature-box {
+     box-shadow: 0 0 10px 1px rgba(37, 37, 214, 0.18);
+     margin-bottom: 30px;
+ }
+ .gallery {
+     padding: 100px 0;
+     background: #efefef;
+ }
+
+ .gallery-box  img {
+     width:100%;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: 1s;
+ }
+
+ .gallery-box img:hover {
+    transform: scale(1.1) ;
+ }
+
+ .gallery-box h4 {
+     display: block;
+     color: #fff;
+     font-size: 20px;
+     text-shadow: -2px 2px 2px #000;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     font-weight: 600;
+     transform: translate(-50%,-50%)
+ }
+
+ .gallery-box {
+     position: relative;
+     margin-bottom: 30px;
+ }
