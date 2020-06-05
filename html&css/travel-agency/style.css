@@ -10,11 +10,14 @@ body{
 
 .aero {
     padding-top: -20px;
+    margin-left: -30%;
+    height: 10%;
+    border-radius: 20px;
 }
 
 .header{
     height: 100%;
-    background-image: url(bg.jpg);
+    background-image: url(bg.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -23,8 +26,9 @@ body{
     color: white;
 }
 .header img {
-width: 170px;
-float: left;
+width: 120px;
+margin-right: 50%;
+
 }
 
 .login-btn {
@@ -44,6 +48,11 @@ float: left;
 }
 .header p{
     margin: 18px 0px;
+}
+
+
+.NY {
+    height: 150px !important;
 }
 
 .input-group{
@@ -171,7 +180,7 @@ width: 100%;
  }
 .banner { 
     height: 80%;
-    background-image: url(bg.jpg);
+    background-image: url(bg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
