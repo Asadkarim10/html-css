@@ -108,7 +108,7 @@ h1{
     border-radius: 0!important;
 }
 .flight:hover{
-    background: rgb(109, 109, 236) !important;
+    background:rgb(230, 53, 112) !important;
     color: #000 !important;
     transition:0.5s;
 }

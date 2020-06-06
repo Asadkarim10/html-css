@@ -11,7 +11,8 @@
    <section  class="header" >
        <div  class="container">
            <img src="images/bg1.jpg" class="aero" alt="">
-        <a href="login/index.html"><button type="button" class="Login-btn" >Login</button></a>   
+        <a href="login/index.html"><button type="button" class="Login-btn" >Login</button></a>
+        <a href="rr-form/index.html"><button type="button" class="Login-btn" >Register</button></a>   
        </div>
        <h1>Travel the globe</h1>
        <p>Come fly with us </p>
@@ -24,6 +25,29 @@
         </section> 
 
 
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDHvLKzTjiqsUMXTOrwC1EF13Y53kyu_2o",
+    authDomain: "karimstravelstour.firebaseapp.com",
+    databaseURL: "https://karimstravelstour.firebaseio.com",
+    projectId: "karimstravelstour",
+    storageBucket: "karimstravelstour.appspot.com",
+    messagingSenderId: "807111035945",
+    appId: "1:807111035945:web:fd35e08efcf321761a6038",
+    measurementId: "G-P7PTYDDW2S"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 
 
@@ -71,6 +95,36 @@
 
 
 
+         <div class=" col-md-4">
+            <div class="feature-box">
+             <div class="feature-img">
+              <a href="Us gallery/index.html">   <img src="images/newyork.jpg" alt=""> </a>
+                 <div class="price">
+                     <p>77$</p>
+                 </div>
+                 <div class="rating">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-half-o" ></i>
+                     <i class="fa fa-star-o" ></i>
+
+                 </div>
+             </div>
+             <div class="feature-details">
+                 <h4>NewYork</h4>
+                 <p>NewYork is the city of America </p>
+                    <div><span><i class="fa fa-map-marker">NewYork</i></span>
+                        <span><i class="fa fa-sun-o"></i>5 Days</span>
+                        <span><i class="fa fa-moon-o">4 Nights</i></span>
+    
+                    </div>
+         </div>
+     </div>
+  </div>
+
+
+
 
 
 
@@ -78,9 +132,9 @@
          <div class=" col-md-4">
             <div class="feature-box">
                 <div class="feature-img">
-                    <img src="images/newyork.jpg" alt="">
+                    <a href="fr-gallery/index.html">   <img src="fr-gallery/fp1.jpg" alt=""> </a>
                     <div class="price">
-                        <p>100$</p>
+                        <p>85$</p>
                     </div>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -88,17 +142,16 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half-o" ></i>
                         <i class="fa fa-star-o" ></i>
-
-                    </div>
-                </div>
-                <div class="feature-details">
-                 <a href="Us gallery/index.html">   <h4>NewYork</h4> </a>
-                    <p>NewYork is the city of America </p>
-                    <div><span><i class="fa fa-map-marker">NewYork</i></span>
-                        <span><i class="fa fa-sun-o"></i>5 Days</span>
-                        <span><i class="fa fa-moon-o">4 Nights</i></span>
     
-                    </div>
+                </div>
+                
+                <div class="feature-details">
+                    <h4>Paris</h4>
+                    <p>Paris is the city of France </p>
+                    <div><span><i class="fa fa-map-marker">france</i></span>
+                        <span><i class="fa fa-sun-o"></i>4 Days</span>
+                        <span><i class="fa fa-moon-o">3 Nights</i></span>
+                </div>
          </div>
 
 
@@ -109,30 +162,7 @@
 
 
         
-         <div   class="col-md-4">
-            </div>
-         <div class="feature-box">
-            <div class="feature-img">
-                <img src="images/paris.jpg" alt="">
-                <div class="price">
-                    <p>85$</p>
-                </div>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                    <i class="fa fa-star-o" ></i>
-
-            </div>
-            
-            <div class="feature-details">
-                <h4>London</h4>
-                <p>Paris is the city of France </p>
-                <div><span><i class="fa fa-map-marker">france</i></span>
-                    <span><i class="fa fa-sun-o"></i>4 Days</span>
-                    <span><i class="fa fa-moon-o">3 Nights</i></span>
-            </div>
+         
         </div>
     </div>        
 </div>
@@ -177,19 +207,19 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="gallery-box">
-                <img src="images/london.jpg" alt="">
+               <a href="UK gallery/index.html" ><img src="images/london.jpg" alt=""></a> 
                 <h4>London</h4>
             </div>
             </div>
             <div class="col-md-3">
                 <div class="gallery-box">
-               <a href="US/index.html"> <img  class="NY"  src="images/newyork.jpg" alt=""> </a>
+               <a href="US gallery/index.html"> <img  class="NY"  src="images/newyork.jpg" alt=""> </a>
                 <h4>NewYork</h4>
             </div>
         </div>
         <div class="col-md-3">
             <div class="gallery-box">
-            <img src="images/paris1.jpg" alt="">
+            <a href="fr-gallery/index.html"> <img src="images/paris1.jpg" alt=""> </a>
             <h4>paris</h4>
         </div>
     </div>
