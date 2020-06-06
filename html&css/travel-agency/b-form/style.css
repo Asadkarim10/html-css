@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -17,13 +17,19 @@ body {
 
 }
 
+h1{
+    text-align: center;
+    text-shadow: 2px 2px ;
+    color: rgb(230, 53, 112);
+}
+
 .radio-btn .btn 
 {
  margin: 20px 10px 20px 0;
  box-shadow: none;
 }
 
-.radio-btn .btn:: after 
+.radio-btn .btn   ::after 
 {
     content: '';
     height: 15px;
@@ -62,7 +68,7 @@ body {
 .input::placeholder{
     color: #fff !important;
 }
-.input-grap{
+.input-grp{
     width: 151px;
     display: inline-block;
 }
@@ -102,7 +108,7 @@ body {
     border-radius: 0!important;
 }
 .flight:hover{
-    background: #fff!important;
+    background: rgb(109, 109, 236) !important;
     color: #000 !important;
     transition:0.5s;
 }
