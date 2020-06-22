@@ -1,0 +1,226 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.imgl {
+    height: 50px;
+} 
+
+.nav2 {
+    display: flex;
+  
+}
+
+
+.abcd {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgb(200, 204, 207);
+
+
+}
+
+.btn {
+border-radius: 20px  !important;    
+}
+
+
+#navbarDropdown {
+color: black;
+}
+
+.fa {
+color: gray;
+}
+
+
+.d-none {
+    color: gray;
+}
+
+a{
+    margin-left: 5%;
+    
+    
+}
+
+
+.abc {
+    width: 100%;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    color: white;
+
+}
+
+input {
+    border-radius: 10px;
+    width: 28%;
+}
+
+
+
+.bt {
+    color: lightgreen;
+    background-color: green;
+    border-radius: 30px;
+    width: 10%;
+}
+
+
+
+
+
+.bd {
+    background-color: rgb(243, 245, 247);
+}
+
+
+.features {
+    padding: 100px 0;
+}
+
+h1{
+    text-align: left;
+    margin-left: 15%;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+width: 100%;
+}
+
+
+
+.feature-img {
+    position: relative;
+}
+
+
+
+.feature .fa 
+{
+    font-size: 15px;
+    color: lightseagreen 
+ }
+
+ .feature-details {
+     padding: 20px;
+     text-align: justify;
+ }
+
+ .feature-details h4 {
+     font-weight: 600;
+     margin-top: 20px;
+ }
+
+ .feature-details .fa{
+     margin-right: 5px;
+ }
+
+ .feature-box {
+     box-shadow: 0 0 10px 1px rgba(37, 37, 214, 0.18);
+     margin-bottom: 30px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding:100px 20px 15px;
+    background-image: linear-gradient(#c9cbce,#e5e1e7);
+    background-color: cornsilk;
+    color: black;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom:25px;
+    padding-right: 35px;
+}
+
+.footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.fa-heart {
+    margin 0 5px;
+    color: #f44336;
+}
+
+.footer .copyright {
+    text-align: center
+}
+
+.btn {
+    border-radius: 60%;
+    border: 1px solid black;
+}
+
+.footerL {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+background-image: linear-gradient(#2d557d,#9610fb);
