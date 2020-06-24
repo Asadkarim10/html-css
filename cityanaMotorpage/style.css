@@ -1,0 +1,255 @@
+.btn {
+    border-radius: 20px  !important;    
+    }
+    
+    
+    #navbarDropdown {
+    color: black;
+    }
+    
+    .fa {
+    color: gray;
+    }
+    
+    .d-none {
+        color: gray;
+    }
+    
+    .abc {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    .box{
+        position: relative;
+        width: 100%;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+        color: white;
+    
+    }
+
+
+
+
+ .sec4 {
+     display: flex;
+     justify-content: space-evenly;
+     border-radius: 10px;
+     margin: 10px;
+     margin-top: 10px;
+     padding: 20px;
+     background-color: white;
+     margin-left: 13%;
+     margin-right: 13%;
+ }   
+
+.price{
+    border-radius: 50px;
+    text-align: center;
+    width: 30%;
+    border: 3px solid rgb(231, 238, 235);;
+    background-color: rgb(231, 238, 235);
+
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+
+.card-body1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.cards{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    justify-content: space-between;
+    border: hidden;
+    
+}
+
+
+img {
+    height: 80px;
+}
+
+
+h4{
+    text-align: center;
+    
+}
+
+.fea-section {
+    background-color: rgb(231, 238, 235);
+    padding-top: 50px;
+    
+}
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 250px;
+    right: 135px;
+    background-color: rgb(243, 177, 54);
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+
+
+
+
+
+h3{
+    padding-top: 50px;
+    padding-bottom: -50px;
+    margin-left: 13%;
+    margin-top: 5%
+}
+.usertest{
+    margin-left:13% ;
+    margin-right:13%;
+    background-color: white;
+    
+}
+.userp {
+    text-align: center;
+    margin-left: 10%;
+    margin-left: 10%;
+    
+}
+.testm {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 238, 235);
+}
+
+
+.sec44 {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 100px;
+    margin: 10px;
+    margin-top: 6px;
+    padding: 20px;
+    background-color: rgb(231, 238, 235);
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.price1{
+    border-radius: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding:100px 20px 15px;
+    background-color: white;
+    color: black;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom:25px;
+    padding-right: 35px;
+}
+
+.footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.fa-heart {
+    margin 0 5px;
+    color: #f44336;
+}
+
+.footer .copyright {
+    text-align: center
+}
+
+.btn {
+    border-radius: 60%;
+    border: 1px solid black;
+}
+
+.footerL {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 22%;
+    background: #efefef;
+
+}
+
+
+
+
+.footer2 {
+    display: flex;
+    justify-content:space-around ;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 6%;
+    
+    background-color: white;
+    color: black;
+}
+
+.mdi-36px {
+    font-size: 39px;
+    margin-right: 10px
+}
+
+
+
+padding:100px 20px 15px;
+padding-left: 130px;
+    padding-right: 130px;
